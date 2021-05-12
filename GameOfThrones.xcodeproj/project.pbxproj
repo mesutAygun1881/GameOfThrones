@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4F9D79264B19B600060D8B /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F9D78264B19B600060D8B /* HouseModel.swift */; };
+		7C4F9D7B264B1BDB00060D8B /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F9D7A264B1BDB00060D8B /* Houses.swift */; };
+		7C4F9D7D264B2CF700060D8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F9D7C264B2CF700060D8B /* DetailViewController.swift */; };
 		7C82F73D264AA6C00007C425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82F73C264AA6C00007C425 /* AppDelegate.swift */; };
 		7C82F73F264AA6C00007C425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82F73E264AA6C00007C425 /* SceneDelegate.swift */; };
 		7C82F741264AA6C00007C425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82F740264AA6C00007C425 /* ViewController.swift */; };
 		7C82F744264AA6C00007C425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C82F742264AA6C00007C425 /* Main.storyboard */; };
 		7C82F746264AA6C10007C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C82F745264AA6C10007C425 /* Assets.xcassets */; };
 		7C82F749264AA6C10007C425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C82F747264AA6C10007C425 /* LaunchScreen.storyboard */; };
+		7CF01F87264BC6DB00FCB441 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF01F86264BC6DB00FCB441 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C4F9D78264B19B600060D8B /* HouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		7C4F9D7A264B1BDB00060D8B /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		7C4F9D7C264B2CF700060D8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7C82F739264AA6C00007C425 /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C82F73C264AA6C00007C425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C82F73E264AA6C00007C425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		7C82F745264AA6C10007C425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C82F748264AA6C10007C425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C82F74A264AA6C10007C425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF01F86264BC6DB00FCB441 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				7C82F745264AA6C10007C425 /* Assets.xcassets */,
 				7C82F747264AA6C10007C425 /* LaunchScreen.storyboard */,
 				7C82F74A264AA6C10007C425 /* Info.plist */,
+				7C4F9D78264B19B600060D8B /* HouseModel.swift */,
+				7C4F9D7A264B1BDB00060D8B /* Houses.swift */,
+				7C4F9D7C264B2CF700060D8B /* DetailViewController.swift */,
+				7CF01F86264BC6DB00FCB441 /* SplashScreenViewController.swift */,
 			);
 			path = GameOfThrones;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4F9D79264B19B600060D8B /* HouseModel.swift in Sources */,
 				7C82F741264AA6C00007C425 /* ViewController.swift in Sources */,
+				7CF01F87264BC6DB00FCB441 /* SplashScreenViewController.swift in Sources */,
+				7C4F9D7B264B1BDB00060D8B /* Houses.swift in Sources */,
+				7C4F9D7D264B2CF700060D8B /* DetailViewController.swift in Sources */,
 				7C82F73D264AA6C00007C425 /* AppDelegate.swift in Sources */,
 				7C82F73F264AA6C00007C425 /* SceneDelegate.swift in Sources */,
 			);
